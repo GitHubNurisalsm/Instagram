@@ -1,0 +1,46 @@
+.bar{
+  max-width: 20%;
+  padding: 30px;
+  border-right: 0.5px solid #E5E4E4;
+  &__nav{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    font-size: 26px;
+    color: #ffffff;
+    padding-top: 30px;
+    a{
+      color: white;
+      font-size: 24px;
+    }
+    &-bottom{
+      padding-top: 15%;
+      font-size: 24px;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+      a{
+        color: #ffffff;
+      }
+    }
+    &-item{
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      font-size: 25px;
+    }
+    &-avatar{
+      width: 9%;
+      height: 9%;
+      border-radius: 50%;
+      border: solid 1px #ffffff;
+      padding: 2px;
+    }
+  }
+  &__logo{
+    svg{
+      fill: white;
+    }
+  }
+}
