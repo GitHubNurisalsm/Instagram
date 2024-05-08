@@ -11,13 +11,6 @@ import { FaThreads } from "react-icons/fa6";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 
-
-
-
-
-
-
-
 const Bar = () => {
     return (
         <section className={"bar"}>

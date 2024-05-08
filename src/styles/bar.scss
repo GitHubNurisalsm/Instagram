@@ -1,21 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+
 .bar{
-  max-width: 20%;
-  padding: 30px;
+  max-width: 18%;
+  padding: 30px 30px 50px 20px;
   border-right: 0.5px solid #E5E4E4;
+  display: block;
   &__nav{
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
-    font-size: 26px;
+    row-gap: 30px;
+    font-size: 21px;
     color: #ffffff;
     padding-top: 30px;
     a{
       color: white;
-      font-size: 24px;
+      font-size: 18px;
     }
     &-bottom{
-      padding-top: 15%;
-      font-size: 24px;
+      padding-top: 55%;
+      font-size: 18px;
       color: #ffffff;
       display: flex;
       flex-direction: column;
@@ -29,6 +33,8 @@
       align-items: center;
       column-gap: 10px;
       font-size: 25px;
+      font-family: "Reddit Sans Condensed", sans-serif;
+      font-weight: 400;
     }
     &-avatar{
       width: 9%;
