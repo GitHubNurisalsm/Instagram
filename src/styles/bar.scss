@@ -3,9 +3,10 @@
 
 .bar{
   max-width: 18%;
-  padding: 30px 30px 50px 20px;
+  height: 100vh;
+  padding: 30px 30px 0 20px;
   border-right: 0.5px solid #E5E4E4;
-  display: block;
+  position: fixed;
   &__nav{
     display: flex;
     flex-direction: column;

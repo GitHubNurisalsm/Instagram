@@ -9,6 +9,7 @@ import { FaRegHeart } from "react-icons/fa6";
 import avatar from "../../../assets/photo_2024-05-07 17.22.25.jpeg"
 import { FaThreads } from "react-icons/fa6";
 import { RxHamburgerMenu } from "react-icons/rx";
+import "../../../styles/bar.scss"
 
 
 const Bar = () => {

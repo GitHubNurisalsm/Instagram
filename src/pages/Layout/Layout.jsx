@@ -1,6 +1,6 @@
 import React from 'react';
 import Bar from "./Bar/Bar";
-import Footer from "./Footer/Footer";
+import Users from "./Footer/Users";
 import {Outlet} from "react-router-dom"
 import "../../styles/layout.scss"
 
@@ -11,7 +11,7 @@ const Layout = () => {
                 <div className="layout__block">
                     <Bar/>
                     <Outlet/>
-                    <Footer/>
+                    <Users/>
                 </div>
             </section>
 

@@ -6,6 +6,7 @@
   list-style-type: none;
   transition: 0.5s;
   background: black;
+  color: #ffffff;
 }
 .container{
   max-width: 1190px;
@@ -14,3 +15,4 @@
   margin: 0 auto;
 }
 @import "bar";
+@import "users";

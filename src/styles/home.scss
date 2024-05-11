@@ -1,5 +1,5 @@
 .home{
-  padding: 30px 0 0 0;
+  padding: 30px 0;
   &__top{
     display: flex;
     justify-content: center;
@@ -21,4 +21,39 @@
       color: #ffffff;
     }
   }
-}
+  &__post{
+    padding-left: 32%;
+    padding-top: 20px;
+    &-item{
+      width: 50%;
+      img{
+        width: 100%;
+      }
+    }
+    &-profile{
+      display: flex;
+      align-items: center;
+      column-gap: 5px;
+      padding-bottom: 10px;
+      img{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        border: solid 1px #884EA0;
+        padding: 3px;
+      }
+    }
+    &-name{
+      color: #ffffff;
+      font-size: 16px;
+    }
+    &-icons{
+      color: #ffffff;
+      font-size: 27px;
+      display: flex;
+      align-items: center;
+      column-gap: 15px;
+      padding-top: 10px;
+    }
+  }
+  }
