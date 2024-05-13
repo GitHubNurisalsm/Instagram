@@ -1,12 +1,32 @@
 .users{
   &__user{
-  //  display: flex;
-  //  align-items: center;
-
+    padding: 37px 35px 0 0;
+    &-elements{
+      display: flex;
+      gap: 10px;
+      padding: 0 0 20px 0;
+    }
     &-img{
       border-radius: 50%;
-      width: 50px;
-      height: 50px;
+      width: 45px;
+      height: 45px;
     }
+    &-desc{
+      padding: 0 25px 0 0;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  &__subscribe{
+    padding: 10px 30px;
+    border: none;
+    color: blue;
+    cursor: pointer;
+  }
+  &__reference{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    padding: 20px 0 15px 0;
   }
 }

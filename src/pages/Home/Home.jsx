@@ -65,12 +65,6 @@ const Home = () => {
                         CR7
                     </p>
                 </div>
-                <div className="home__top-stories">
-                    <img src={cristiano} alt=""/>
-                    <p className="home__top-name">
-                        CR7
-                    </p>
-                </div>
             </div>
             <div className="home__post">
                 <div className="home__post-profile">
