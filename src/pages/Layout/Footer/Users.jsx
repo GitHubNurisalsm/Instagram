@@ -1,5 +1,5 @@
 import React from 'react';
-import avatarka from "../../../assets/photo_2024-05-07 17.22.25.jpeg"
+import avatarka from "../../../assets/mylogo.jpeg"
 import "../../../styles/users.scss"
 
 const Users = () => {

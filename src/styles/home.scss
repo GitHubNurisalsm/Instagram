@@ -10,6 +10,7 @@
       flex-direction: column;
       align-items: center;
       row-gap: 3px;
+      cursor: pointer;
       img{
         border-radius: 50%;
         border: solid 1.5px #884EA0;
@@ -55,6 +56,7 @@
       align-items: center;
       column-gap: 15px;
       padding: 10px 0 10px 0;
+      cursor: pointer;
     }
   }
   }

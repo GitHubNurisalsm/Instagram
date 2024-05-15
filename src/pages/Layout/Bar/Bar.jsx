@@ -6,10 +6,11 @@ import { BiSolidMoviePlay } from "react-icons/bi";
 import { FaTelegramPlane } from "react-icons/fa";
 import { GrAddCircle } from "react-icons/gr";
 import { FaRegHeart } from "react-icons/fa6";
-import avatar from "../../../assets/photo_2024-05-07 17.22.25.jpeg"
 import { FaThreads } from "react-icons/fa6";
 import { RxHamburgerMenu } from "react-icons/rx";
+import avatar from "../../../assets/cristiano.jpg"
 import "../../../styles/bar.scss"
+import {Link, NavLink} from "react-router-dom";
 
 
 const Bar = () => {
@@ -26,11 +27,11 @@ const Bar = () => {
                 <div className="bar__nav">
                    <div className="bar__nav-item">
                        <IoMdHome/>
-                       <a href="#"> Главная </a>
+                       <NavLink to={"/home"}> Главная </NavLink>
                    </div>
                     <div className="bar__nav-item">
                         <CiSearch />
-                        <a href="#"> Поисковый зопрос </a>
+                        <NavLink to={"/serchbar"} > Поисковый зопрос </NavLink>
                     </div>
                     <div className="bar__nav-item">
                         <FaRegCompass />

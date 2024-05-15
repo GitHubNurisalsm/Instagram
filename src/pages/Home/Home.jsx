@@ -1,10 +1,17 @@
 import React from 'react';
 import "../../styles/home.scss"
-import cristiano from "../../assets/278931269_360124899498969_9006978846103417088_n.jpg"
+import cristiano from "../../assets/cristiano.jpg"
 import real from "../../assets/real.jpg"
 import { FaRegComment } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { PiHeartBold } from "react-icons/pi";
+import realmadrid from "../../assets/realmadrid.jpg"
+import mrbeast from "../../assets/mrbeast.jpg"
+import mylogo from "../../assets/mylogo.jpeg"
+import nurlanova from "../../assets/nurlanova.jpg"
+import motivation from "../../assets/motivation.jpg"
+import gulina from "../../assets/gulina.jpg"
+import japon from "../../assets/japon.jpg"
 
 
 const Home = () => {
@@ -14,63 +21,63 @@ const Home = () => {
                 <div className="home__top-stories">
                     <img src={cristiano} alt=""/>
                     <p className="home__top-name">
-                        CR7
+                        cristiano
                     </p>
                 </div>
 
                 <div className="home__top-stories">
-                    <img src={cristiano} alt=""/>
+                    <img src={realmadrid} alt=""/>
                     <p className="home__top-name">
-                        CR7
+                        realmadrid
                     </p>
                 </div>
 
                 <div className="home__top-stories">
-                    <img src={cristiano} alt=""/>
+                    <img src={mrbeast} alt=""/>
                     <p className="home__top-name">
-                        CR7
+                        mrbeast
                     </p>
                 </div>
 
                 <div className="home__top-stories">
-                    <img src={cristiano} alt=""/>
+                    <img src={mylogo} alt=""/>
                     <p className="home__top-name">
-                        CR7
+                        f4
                     </p>
                 </div>
 
                 <div className="home__top-stories">
-                    <img src={cristiano} alt=""/>
+                    <img src={nurlanova} alt=""/>
                     <p className="home__top-name">
-                        CR7
+                        nurlanova
                     </p>
                 </div>
 
                 <div className="home__top-stories">
-                    <img src={cristiano} alt=""/>
+                    <img src={motivation} alt=""/>
                     <p className="home__top-name">
-                        CR7
+                        mativation
                     </p>
                 </div>
 
                 <div className="home__top-stories">
-                    <img src={cristiano} alt=""/>
+                    <img src={gulina} alt=""/>
                     <p className="home__top-name">
-                        CR7
+                        gulina
                     </p>
                 </div>
                 <div className="home__top-stories">
-                    <img src={cristiano} alt=""/>
+                    <img src={japon} alt=""/>
                     <p className="home__top-name">
-                        CR7
+                        quacent_volley
                     </p>
                 </div>
             </div>
             <div className="home__post">
                 <div className="home__post-profile">
-                    <img src={cristiano} alt="" className=""/>
+                    <img src={realmadrid} alt="" className=""/>
                     <h2 className="home__post-name">
-                        CR7
+                        realmadrid
                     </h2>
                 </div>
                     <div className="home__post-item">
@@ -158,6 +165,7 @@ const Home = () => {
                 </p>
 
             </div>
+
         </section>
     );
 };
