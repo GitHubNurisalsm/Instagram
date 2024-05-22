@@ -27,7 +27,7 @@ const Bar = () => {
                 <div className="bar__nav">
                    <div className="bar__nav-item">
                        <IoMdHome/>
-                       <NavLink to={"/home"}> Главная </NavLink>
+                       <NavLink to={"/"}> Главная </NavLink>
                    </div>
                     <div className="bar__nav-item">
                         <CiSearch />
@@ -35,7 +35,7 @@ const Bar = () => {
                     </div>
                     <div className="bar__nav-item">
                         <FaRegCompass />
-                        <a href="#"> Интиресное </a>
+                        <NavLink to={"/sapid"}> Интиресное </NavLink>
                     </div>
                     <div className="bar__nav-item">
                         <BiSolidMoviePlay />
